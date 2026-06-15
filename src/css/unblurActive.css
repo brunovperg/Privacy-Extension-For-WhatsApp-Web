@@ -131,7 +131,22 @@ body:hover div.x10l6tqk.x13vifvy.x17qophe.xh8yej3.xiqx3za.x6ikm8r.x10wlt62.x1knu
 body:hover div.x15e7hw7 /* business profile banner in catalog list */,
 body:hover div.x1n2onr6.x1oysuqx.x1m3v4wt.x1gryazu.xkrivgy /* group profile pic in details panel */,
 body:hover div.overlay:not([data-animate-media-viewer]) ._ajuf._ajuh > div /* user/group profile pic overlay view */,
-body:hover div.x1okw0bk.x1w0mnb /* user profile pic in starred message list */
+body:hover div.x1okw0bk.x1w0mnb /* user profile pic in starred message list */,
+
+
+/* UPDATED FILTERS */
+body:hover [data-testid="media-url-provider"] /* UPDATED media messages in chat panel and contact attachment button */,
+body:hover div[data-testid="chat-list"] img._ao3e:not(.emoji) /* UPDATED user/group profile pic in message list */,
+body:hover header div[role="button"]:first-child > div /* UPDATED user/group profile pic at the top of chat panel */,
+body:hover div.x1pahc9y.x1ertn4p /* UPDATED user profile pic in starred message list */,
+body:hover div[data-testid="navbar-item-me-tab-photo"] /* UPDATED user/group profile pic in message list */,
+body:hover div[data-testid="cell-frame-title"] span._ao3e /* UPDATED user/group name in message list*/,
+body:hover span[data-testid="author"]._ao3e /* UPDATED user name in group chat messages */,
+body:hover div[data-testid="chat-list"] span.x78zum5.x1cy8zhl /* UPDATED message preview*/,
+body:hover span[data-testid="sticker-container"] /* UPDATED sticker message */,
+body:hover div[data-testid="msg-container"] div.copyable-text /* UPDATED entire message block */,
+body:hover [data-testid="document-thumb"] span._ao3e /* UPDATED document filename in send media */,
+body:hover [data-testid="document-thumb"] div.x10l6tqk.x1agz8ms.xiy17q3.x18d0r48.x5yr21d.x10l6tqk.xh8yej3 /* UPDATED document preview in send media */
 {
   filter: blur(0) grayscale(0);
   transition-delay: 0s;

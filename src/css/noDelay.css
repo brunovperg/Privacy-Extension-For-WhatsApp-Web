@@ -135,6 +135,20 @@ div.x1n2onr6.x1oysuqx.x1m3v4wt.x1gryazu.xkrivgy:hover /* group profile pic in de
 div.overlay:not([data-animate-media-viewer]) ._ajuf._ajuh > div:hover /* user/group profile pic overlay view */,
 div.x1okw0bk.x1w0mnb:hover /* user profile pic in starred message list */,
 
+/* UPDATED FILTERS */
+[data-testid="media-url-provider"]:hover /* UPDATED media messages in chat panel and contact attachment button */,
+div[data-testid="chat-list"] img._ao3e:not(.emoji):hover /* UPDATED user/group profile pic in message list */,
+header div[role="button"]:first-child > div:hover /* UPDATED user/group profile pic at the top of chat panel */,
+div.x1pahc9y.x1ertn4p:hover /* UPDATED user profile pic in starred message list */,
+div[data-testid="navbar-item-me-tab-photo"]:hover /* UPDATED user/group profile pic in message list */,
+div[data-testid="cell-frame-title"] span._ao3e:hover /* UPDATED user/group name in message list*/,
+span[data-testid="author"]._ao3e:hover /* UPDATED user name in group chat messages */,
+div[data-testid="chat-list"] span.x78zum5.x1cy8zhl:hover /* UPDATED message preview*/,
+span[data-testid="sticker-container"]:hover /* UPDATED sticker message */,
+div[data-testid="msg-container"] div.copyable-text:hover /* UPDATED entire message block */,
+[data-testid="document-thumb"] span._ao3e:hover /* UPDATED document filename in send media */,
+[data-testid="document-thumb"] div.xh8yej3:hover /* UPDATED document preview in send media */,
+
 /* textInput */
 div._ak1l:hover /* message text input */,
 div._ak1r:hover /* message text input */
